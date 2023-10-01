@@ -1,3 +1,3 @@
-# Dayjs App
+# Simple Date/Time Widget
 
-Simple Time, Date, and Location App with day js and npm can include Light and dark mode in the future.
+Simple Website that shows the date, time, and location. Can add Dark and light mode in the future
