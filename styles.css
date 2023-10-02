@@ -7,13 +7,17 @@ html {
 * {
   box-sizing: border-box;
 }
-
+.dark-mode {
+  color: #ddd;
+  background-color: #222;
+}
 body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #ddd;
+  color: #222;
 }
 
 .main {
@@ -24,12 +28,18 @@ body {
   gap: 12px;
 }
 
-.moon {
-    margin-bottom: 8px;
+.toggle {
+  margin-bottom: 8px;
+}
+path {
+  fill: #222;
+}
+
+.p-dark-mode {
+  fill: #ddd;
 }
 
 #location {
-  color: #222;
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
@@ -41,7 +51,6 @@ body {
 }
 
 .time {
-  color: #222;
   font-family: Poppins;
   font-size: 100px;
   font-style: normal;
@@ -52,7 +61,6 @@ body {
 }
 
 .date {
-  color: #222;
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
