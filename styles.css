@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   gap: 12px;
 }
 
@@ -28,7 +28,7 @@ body {
     margin-bottom: 8px;
 }
 
-.location {
+#location {
   color: #222;
   font-family: Poppins;
   font-size: 24px;
@@ -37,6 +37,7 @@ body {
   letter-spacing: 2px;
   line-height: normal;
   margin: 0;
+  padding: 0;
 }
 
 .time {
